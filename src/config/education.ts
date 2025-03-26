@@ -13,24 +13,24 @@ export type EducationItemType = {
   
   export const educationList: Array<EducationItemType> = [
     {
-      school: 'Tsinghua University',
-      major: 'MBA',
+      school: 'Duke University',
+      major: 'MQM: Risk Management',
       logo: 'college',
-      start: '2017',
-      end: '2020'
+      start: '2024',
+      end: '2025'
     },
     {
-      school: 'University of Chicago',
+      school: 'New York University',
       major: 'Computer Science',
       logo: 'college',
-      start: '2013',
-      end: '2015'
+      start: '2018',
+      end: '2021'
     },
     {
-      school: 'BUPT',
-      major: 'Automation',
+      school: 'NFLS',
+      major: 'International Baccalaureate',
       logo: 'college',
-      start: '2009',
-      end: '2013'
+      start: '2014',
+      end: '2017'
     },
   ]

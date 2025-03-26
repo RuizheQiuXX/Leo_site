@@ -20,18 +20,19 @@ export const awardsIntro = "Recognition for academic and professional achievemen
 
 export const awards: Array<ActivityItemType> = [
   {
-    name: 'Outstanding Teacher Award',
-    description: '',
+    name: 'PwC 20th Anniversary Community Contribution Award',
+    description: 'Recognized for outstanding contributions to community impact initiatives during PwC China’s 20th anniversary celebration.',
     date: '2024',
-    location: 'SCLS, Shanghai',
+    location: 'Shanghai, China',
   },
   {
-    name: 'Zhui Ying Award',
-    description: '',
+    name: 'Certification as Venerated Blood Donor',
+    description: 'Honorary recognition for voluntary blood donation and continuous contributions to public health.',
     date: '2023',
-    location: 'Qingpu, Shanghai',
+    location: 'Shanghai, China',
   },
 ]
+
 
 // Research & Projects
 export const projectHeadLine = "Research & Projects"
@@ -39,30 +40,31 @@ export const projectIntro = "Academic research and technical projects I've worke
 
 export const projects: Array<ProjectItemType> = [
   {
-    name: 'Student Final Project Portfolio',
-    description: 'Static website portfolio',
-    link: { href: 'scls-cs.com', label: 'GitHub Cards' },
-    tags: ['Website', 'Next.js', 'TailwindCSS', 'DaisyUI', 'Portfolio']
+    name: 'PwC AI Chatbot Rollout',
+    description: 'Championed the internal adoption of PwC’s NLP chatbot by 1,600+ employees, increasing task automation by 35%.',
+    link: { href: 'https://www.linkedin.com/in/linsong-hao2077', label: 'LinkedIn' },
+    tags: ['AI', 'NLP', 'Automation', 'PwC']
   },
   {
-    name: 'Seeking DNA',
-    description: '2022 SCLS Hackathon',
-    link: { href: 'https://scls-cs.gitbook.io/scls-apcs-lab/lab5-dna', label: 'Hackathon' },
-    tags: ['Hackathon', 'Java']
+    name: 'Epidemic Risk Tracking System',
+    description: 'Built a real-time health risk tracker with CDC & mobility data, achieving 90% outbreak prediction accuracy.',
+    link: { href: '#', label: 'View Dashboard' },
+    tags: ['Public Health', 'Python', 'Data Visualization', 'Tableau']
   },
   {
-    name: 'Texas Holdem Poker Judge',
-    description: '2024 SCLS Hackathon',
-    link: { href: 'https://onecompiler.com/challenges/42yf4n5yn/scls-hackathon', label: 'Hackathon' },
-    tags: ['Hackathon']
+    name: 'Finance Process Automation (RPA)',
+    description: 'Automated financial reporting workflows, cutting reporting time by 40% and enhancing audit compliance.',
+    link: { href: '#', label: 'Capstone Project' },
+    tags: ['Automation', 'RPA', 'Compliance', 'Python']
   },
   {
-    name: 'AI Camp Course Development',
-    description: 'Developed a comprehensive AI curriculum for high school students, incorporating real-world projects and startup concepts.',
-    link: { href: 'https://scls-cs.gitbook.io/ai-camp', label: 'View Course' },
-    tags: ['Education', 'AI']
+    name: 'ESG Data Analytics – PwC Solvers Challenge',
+    description: 'Led sustainability data analysis on carbon footprints from 1,600+ participants to shape corporate ESG insights.',
+    link: { href: '#', label: 'Challenge Overview' },
+    tags: ['ESG', 'Data Science', 'Sustainability', 'PwC']
   },
 ]
+
 
 // Hobbies & Volunteer
 export const activitiesHeadLine = "Hobbies & Volunteer"
@@ -70,26 +72,26 @@ export const activitiesIntro = "Personal interests and community contributions."
 
 export const activities: Array<ActivityItemType> = [
   {
-    name: 'Python Workshop',
+    name: 'AI Ethics Roundtable',
     description:
-      'Teaching basic Python programming concepts to beginners. Covering variables, control flow, and functions.',
-    date: '2024-02-24',
-    location: 'Shanghai',
-    link: 'https://example.com/python-workshop',
-  },
-  {
-    name: 'AI Ethics Discussion',
-    description:
-      'A group discussion about the ethical implications of AI development and its impact on society.',
+      'Hosted a peer-led discussion on AI ethics, focusing on algorithmic bias, data privacy, and the balance between innovation and responsibility.',
     date: '2024-03-01',
     location: 'Shanghai',
     link: 'https://example.com/ai-ethics',
   },
   {
-    name: 'Code Review Session',
+    name: 'Code Review Circle',
     description:
-      'Helping students improve their coding skills through peer code review and best practices sharing.',
+      'Facilitated weekly code review sessions for junior developers, sharing best practices in clean code, readability, and debugging techniques.',
     date: '2024-03-15',
     location: 'Shanghai',
   },
+  {
+    name: 'Judo & Jiu-jitsu Training',
+    description:
+      '12 years of martial arts training with a black belt in Judo. Practicing discipline, focus, and the philosophy of movement both on and off the mat.',
+    date: 'Ongoing',
+    location: 'Various Dojos across China & U.S.',
+  },
 ]
+
