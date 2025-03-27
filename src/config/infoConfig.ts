@@ -3,7 +3,7 @@ export * from './education'
 export * from './career'
 
 // personal info
-export const name = 'Linsong Hao'
+export const name = 'Ruizhe Qiu'
 export const headline = 'Student at Duke University.'
 export const introduction =
   "Coucou Les Amis! My name is Linsong Hao. I'm from Jiangsu and an alumnus of NFLS, NYU, and Duke. My passion is in Risk Management, Compliance & Judo."
