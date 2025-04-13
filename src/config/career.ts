@@ -10,31 +10,26 @@ export type CareerItemType = {
 
 export const careerList: Array<CareerItemType> = [
   {
-    company: 'PwC (PricewaterhouseCoopers) AC Shanghai',
-    title: 'Business Analyst & Solution Engineer',
-    logo: 'bank',
-    start: '2021',
+    company: 'Asian Media Access',
+    title: 'Coordinator for Financial Management',
+    logo: 'coffee',
+    start: '2024',
     end: '2024',
   },
   {
-    company: 'Hoperun Information Technology',
-    title: 'Assistant IT & Testing Engineer (Intern)',
-    logo: 'code',
-    start: '2020',
-    end: '2020',
+    company: 'SPD Bank',
+    title: 'Intern',
+    logo: 'bank',
+    start: '2023',
+    end: '2023',
   },
   {
-    company: 'Duke University',
-    title: 'Research Assistant',
-    logo: 'college',
-    start: '2024',
-    end: 'Present'
+    company: 'China International Capital Corporation Limited',
+    title: 'IBD Assistant',
+    logo: 'bank',
+    start: '2022',
+    end: '2023',
   },
-  {
-    company: 'Duke University Health Center',
-    title: 'Fitness Counselor',
-    logo: 'coffee',
-    start: '2024',
-    end: 'Present'
-  }
+ 
+  
 ]
