@@ -25,6 +25,21 @@ export const blogIntro =
   "I've written something about AI, programming, finance and my personal life."
 
 
+// social links
+export type SocialLinkType = {
+  name: string
+  ariaLabel?: string
+  icon: string
+  href: string
+}
+
+export const socialLinks: Array<SocialLinkType> = [
+  {
+    name: 'Tiktok',
+    icon: 'tiktok',
+    href: 'https://www.tiktok.com/@harvard?lang=en',
+  },
+]
 
 // https://simpleicons.org/
 export const techIcons = [
