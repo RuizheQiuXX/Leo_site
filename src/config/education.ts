@@ -14,23 +14,16 @@ export type EducationItemType = {
   export const educationList: Array<EducationItemType> = [
     {
       school: 'Duke University',
-      major: 'MQM: Risk Management',
+      major: 'MQM: Business Analytics - Risk Track',
       logo: 'college',
       start: '2024',
       end: '2025'
     },
     {
-      school: 'New York University',
-      major: 'Computer Science',
+      school: 'University of Minnesota- Twin Cities',
+      major: 'Financial Risk Mangement & Insurance',
       logo: 'college',
-      start: '2018',
-      end: '2021'
-    },
-    {
-      school: 'NFLS',
-      major: 'International Baccalaureate',
-      logo: 'college',
-      start: '2014',
-      end: '2017'
+      start: '2020',
+      end: '2024'
     },
   ]
