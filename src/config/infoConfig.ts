@@ -24,13 +24,6 @@ export const blogHeadLine = "What I've thinking about."
 export const blogIntro =
   "I've written something about AI, programming, finance and my personal life."
 
-// social links
-export type SocialLinkType = {
-  name: string
-  ariaLabel?: string
-  icon: string
-  href: string
-}
 
 
 // https://simpleicons.org/
